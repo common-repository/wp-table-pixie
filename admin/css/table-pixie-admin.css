@@ -1,0 +1,110 @@
+/**
+ * WP Table Pixie CSS.
+ */
+
+#table-pixie-form p.search-box input {
+	box-sizing: border-box;
+}
+
+/**
+ * Columns.
+ */
+.column-__tp_id,
+.column-autoload,
+.column-related_id,
+.column-type {
+	width: 10%;
+}
+
+.column-meta_key {
+	width: 20%;
+}
+
+.column-meta_value div.row-actions {
+	clear: both;
+}
+
+/**
+ * Top of table stuff.
+ */
+.table-pixie-extra-tablenav:nth-of-type(2),
+.table-pixie-extra-tablenav:nth-of-type(3) {
+	margin-left: -8px;
+}
+
+span.error {
+	color: red;
+	font-weight: bold;
+}
+
+/**
+ * Help.
+ */
+.help-tab-content dt {
+	font-weight: bold;
+}
+
+.list-view::before {
+	content: '\f163';
+}
+
+.excerpt-view::before {
+	content: '\f164';
+}
+
+.contextual-help-sidebar {
+	padding: 0.5rem;
+}
+
+/**
+ * Rich View.
+ */
+.table-pixie-rich-view {
+	margin: 0;
+	clear: both;
+}
+
+.table-pixie-rich-view .array {
+	margin: 0;
+}
+
+.table-pixie-rich-view .array .key {
+	float: left;
+	clear: left;
+	width: 2em;
+	margin: 0.2em 0;
+	padding: 0.1em;
+	background-color: #ddd;
+	text-align: right;
+}
+
+.table-pixie-rich-view .array.associative > .key {
+	width: 10em;
+}
+
+.table-pixie-rich-view .array .key:after {
+	content: ":";
+}
+
+.table-pixie-rich-view .array .value {
+	float: left;
+	margin: 0.2em;
+	padding: 0.1em;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.table-pixie-rich-view .array.associative > .value {
+}
+
+.table-pixie-rich-view .array .value > span.count {
+	color: #999;
+}
+
+.table-pixie-rich-view .array .value > span.count:hover {
+	cursor: pointer;
+}
+
+.table-pixie-rich-view .array .value > span.count .dashicons {
+	color: #555;
+}

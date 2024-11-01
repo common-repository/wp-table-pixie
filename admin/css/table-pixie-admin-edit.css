@@ -1,0 +1,23 @@
+/**
+ * WP Table Pixie Edit CSS.
+ */
+#table-pixie-admin-edit-base64-wrap {
+	margin-top: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	height: 14px;
+	width: 14px;
+}
+
+#table-pixie-admin-edit-modal .widefat {
+	margin-bottom: 10px;
+}
+
+#table-pixie-admin-edit-modal label.title {
+	vertical-align: baseline;
+}
+
+#table-pixie-admin-edit-modal button.button-primary {
+	margin-left: 0.5rem;
+}
